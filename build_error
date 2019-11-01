@@ -1,0 +1,160 @@
+duplicate symbol nd4j::ops::helpers::SVD<float16>::evalData(nd4j::NDArray const&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+ld: 72 duplicate symbols for architecture x86_64
+collect2: error: ld returned 1 exit status
+make[2]: *** [blas/libnd4jcpu.dylib] Error 1
+make[1]: *** [blas/CMakeFiles/nd4jcpu.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(StringUtils.cpp.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(float8.cpp.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(int16.cpp.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(int8.cpp.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(uint16.cpp.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(uint8.cpp.o) has no symbols
+[ 88%] Built target nd4jcpustatic
+make: *** [all] Error 2
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for deeplearning4j 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] deeplearning4j ..................................... SUCCESS [04:08 min]
+[INFO] libnd4j ............................................ FAILURE [37:38 min]
+[INFO] nd4j ............................................... SKIPPED
+[INFO] nd4j-shade ......................................... SKIPPED
+[INFO] jackson ............................................ SKIPPED
+[INFO] protobuf ........................................... SKIPPED
+[INFO] guava .............................................. SKIPPED
+[INFO] nd4j-common ........................................ SKIPPED
+[INFO] nd4j-context ....................................... SKIPPED
+[INFO] nd4j-buffer ........................................ SKIPPED
+[INFO] nd4j-backends ...................................... SKIPPED
+[INFO] nd4j-api-parent .................................... SKIPPED
+[INFO] nd4j-api ........................................... SKIPPED
+[INFO] nd4j-jdbc .......................................... SKIPPED
+[INFO] nd4j-jdbc-api ...................................... SKIPPED
+[INFO] nd4j-jdbc-mysql .................................... SKIPPED
+[INFO] nd4j-jdbc-hsql ..................................... SKIPPED
+[INFO] nd4j-serde ......................................... SKIPPED
+[INFO] nd4j-aeron ......................................... SKIPPED
+[INFO] nd4j-jackson ....................................... SKIPPED
+[INFO] nd4j-kryo .......................................... SKIPPED
+[INFO] nd4j-camel-routes .................................. SKIPPED
+[INFO] nd4j-kafka ......................................... SKIPPED
+[INFO] nd4j-gson .......................................... SKIPPED
+[INFO] nd4j-arrow ......................................... SKIPPED
+[INFO] nd4j-native-api .................................... SKIPPED
+[INFO] nd4j-tests ......................................... SKIPPED
+[INFO] nd4j-backend-impls ................................. SKIPPED
+[INFO] nd4j-tensorflow .................................... SKIPPED
+[INFO] nd4j-native ........................................ SKIPPED
+[INFO] nd4j-native-platform ............................... SKIPPED
+[INFO] nd4j-tests-tensorflow .............................. SKIPPED
+[INFO] nd4j-parameter-server-parent ....................... SKIPPED
+[INFO] nd4j-parameter-server-model ........................ SKIPPED
+[INFO] nd4j-parameter-server .............................. SKIPPED
+[INFO] nd4j-parameter-server-status ....................... SKIPPED
+[INFO] nd4j-parameter-server-client ....................... SKIPPED
+[INFO] nd4j-parameter-server-rocksdb-storage .............. SKIPPED
+[INFO] nd4j-parameter-server-node ......................... SKIPPED
+[INFO] nd4j-uberjar ....................................... SKIPPED
+[INFO] nd4j-remote ........................................ SKIPPED
+[INFO] nd4j-json-client ................................... SKIPPED
+[INFO] nd4j-grpc .......................................... SKIPPED
+[INFO] nd4j-json-server ................................... SKIPPED
+[INFO] DataVec ............................................ SKIPPED
+[INFO] datavec-api ........................................ SKIPPED
+[INFO] datavec-arrow ...................................... SKIPPED
+[INFO] datavec-geo ........................................ SKIPPED
+[INFO] datavec-python ..................................... SKIPPED
+[INFO] datavec-local ...................................... SKIPPED
+[INFO] datavec-data ....................................... SKIPPED
+[INFO] datavec-data-audio ................................. SKIPPED
+[INFO] datavec-data-image ................................. SKIPPED
+[INFO] datavec-data-codec ................................. SKIPPED
+[INFO] datavec-data-nlp ................................... SKIPPED
+[INFO] datavec-hadoop ..................................... SKIPPED
+[INFO] datavec-spark_2.11 ................................. SKIPPED
+[INFO] DataVec Camel Component ............................ SKIPPED
+[INFO] datavec-spark-inference-parent ..................... SKIPPED
+[INFO] datavec-spark-inference-model ...................... SKIPPED
+[INFO] datavec-spark-inference-server ..................... SKIPPED
+[INFO] datavec-spark-inference-client ..................... SKIPPED
+[INFO] datavec-jdbc ....................................... SKIPPED
+[INFO] datavec-excel ...................................... SKIPPED
+[INFO] datavec-perf ....................................... SKIPPED
+[INFO] DeepLearning4j ..................................... SKIPPED
+[INFO] deeplearning4j-util ................................ SKIPPED
+[INFO] deeplearning4j-data ................................ SKIPPED
+[INFO] deeplearning4j-utility-iterators ................... SKIPPED
+[INFO] deeplearning4j-common .............................. SKIPPED
+[INFO] deeplearning4j-nn .................................. SKIPPED
+[INFO] deeplearning4j-datavec-iterators ................... SKIPPED
+[INFO] deeplearning4j-datasets ............................ SKIPPED
+[INFO] deeplearning4j-nearestneighbors-parent ............. SKIPPED
+[INFO] nearestneighbor-core ............................... SKIPPED
+[INFO] deeplearning4j-manifold ............................ SKIPPED
+[INFO] deeplearning4j-tsne ................................ SKIPPED
+[INFO] deeplearning4j-modelimport ......................... SKIPPED
+[INFO] deeplearning4j-ui-parent ........................... SKIPPED
+[INFO] deeplearning4j-ui-components ....................... SKIPPED
+[INFO] deeplearning4j-core ................................ SKIPPED
+[INFO] DeepLearning4j-scaleout-parent ..................... SKIPPED
+[INFO] DeepLearning4j-AWS ................................. SKIPPED
+[INFO] deeplearning4j-ui-model ............................ SKIPPED
+[INFO] deeplearning4j-play ................................ SKIPPED
+[INFO] Spark parent ....................................... SKIPPED
+[INFO] dl4j-spark ......................................... SKIPPED
+[INFO] deeplearning4j-nlp-parent .......................... SKIPPED
+[INFO] deeplearning4j-nlp ................................. SKIPPED
+[INFO] dl4j-spark-nlp ..................................... SKIPPED
+[INFO] deeplearning4j-parallel-wrapper .................... SKIPPED
+[INFO] dl4j-spark-parameterserver ......................... SKIPPED
+[INFO] dl4j-spark-nlp-java8 ............................... SKIPPED
+[INFO] deeplearning4j-scaleout-parallelwrapper-parameter-server SKIPPED
+[INFO] deeplearning4j-ui .................................. SKIPPED
+[INFO] deeplearning4j-ui-standalone ....................... SKIPPED
+[INFO] deeplearning4j-graph ............................... SKIPPED
+[INFO] deeplearning4j-nlp-uima ............................ SKIPPED
+[INFO] deeplearning4j-nlp-korean_2.11 ..................... SKIPPED
+[INFO] deeplearning4j-nlp-japanese ........................ SKIPPED
+[INFO] deeplearning4j-nlp-chinese ......................... SKIPPED
+[INFO] deeplearning4j-dataimport-solrj .................... SKIPPED
+[INFO] deeplearning4j-modelexport-solr .................... SKIPPED
+[INFO] deeplearning4j-zoo ................................. SKIPPED
+[INFO] deeplearning4j-nearestneighbors-model .............. SKIPPED
+[INFO] deeplearning4j-nearestneighbors-client ............. SKIPPED
+[INFO] deeplearning4j-nearestneighbor-server .............. SKIPPED
+[INFO] dl4j-perf .......................................... SKIPPED
+[INFO] dl4j-integration-tests ............................. SKIPPED
+[INFO] deeplearning4j-remote .............................. SKIPPED
+[INFO] deeplearning4j-json-server ......................... SKIPPED
+[INFO] Arbiter ............................................ SKIPPED
+[INFO] arbiter-core ....................................... SKIPPED
+[INFO] arbiter-deeplearning4j ............................. SKIPPED
+[INFO] arbiter-server ..................................... SKIPPED
+[INFO] arbiter-ui ......................................... SKIPPED
+[INFO] gym-java-client .................................... SKIPPED
+[INFO] rl4j ............................................... SKIPPED
+[INFO] rl4j-api ........................................... SKIPPED
+[INFO] rl4j-core .......................................... SKIPPED
+[INFO] rl4j-gym ........................................... SKIPPED
+[INFO] rl4j-doom .......................................... SKIPPED
+[INFO] rl4j-ale ........................................... SKIPPED
+[INFO] rl4j-malmo ......................................... SKIPPED
+[INFO] ScalNet ............................................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  41:49 min
+[INFO] Finished at: 2019-10-30T17:50:04+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.bytedeco:javacpp:1.5.1-1:build (javacpp-cppbuild-compile) on project libnd4j: Execution javacpp-cppbuild-compile of goal org.bytedeco:javacpp:1.5.1-1:build failed: Process exited with an error: 2 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :libnd4j
