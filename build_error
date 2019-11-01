@@ -1,3 +1,227 @@
+[ 88%] Built target nd4jobj
+Scanning dependencies of target nd4jcpu
+Scanning dependencies of target nd4jcpustatic
+[ 88%] Linking CXX static library libnd4jcpustatic.a
+[ 88%] Linking CXX shared library libnd4jcpu.dylib
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(StringUtils.cpp.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(float8.cpp.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(int16.cpp.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(int8.cpp.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(uint16.cpp.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: libnd4jcpustatic.a(uint8.cpp.o) has no symbols
+duplicate symbol nd4j::ops::helpers::SVD<float>::getV() in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::getV() in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::getV()   in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::getV()   in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::getU() in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::getU() in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::getU()   in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::getU()   in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::getS() in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::getS() in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::getS()   in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::getS()   in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::deflation2(int, int, int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::deflation2(int, int, int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::deflation2(int, int, int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::deflation2(int, int, int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::deflation(int, int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::deflation(int, int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::deflation(int, int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::deflation(int, int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::DivideAndConquer(int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::DivideAndConquer(int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::DivideAndConquer(int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::DivideAndConquer(int, int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::deflation1(int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::deflation1(int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::deflation1(int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::deflation1(int, int, int, int) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::secularEq(float, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, float) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::secularEq(double, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, double) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::SVD(nd4j::NDArray const&, int, bool, bool, bool, char) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::SVD(nd4j::NDArray const&, int, bool, bool, bool, char) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::SVD(nd4j::NDArray const&, int, bool, bool, bool, char) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::SVD(nd4j::NDArray const&, int, bool, bool, bool, char) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::SVD(nd4j::NDArray const&, int, bool, bool, bool, char) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::SVD(nd4j::NDArray const&, int, bool, bool, bool, char) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::SVD(nd4j::NDArray const&, int, bool, bool, bool, char) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::SVD(nd4j::NDArray const&, int, bool, bool, bool, char) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::SVD(nd4j::NDArray const&, int, bool, bool, bool) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::SVD(nd4j::NDArray const&, int, bool, bool, bool) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::SVD(nd4j::NDArray const&, int, bool, bool, bool) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::SVD(nd4j::NDArray const&, int, bool, bool, bool) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::SVD(nd4j::NDArray const&, int, bool, bool, bool) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::SVD(nd4j::NDArray const&, int, bool, bool, bool) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::SVD(nd4j::NDArray const&, int, bool, bool, bool) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::SVD(nd4j::NDArray const&, int, bool, bool, bool) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::exchangeUV(nd4j::ops::helpers::HHsequence const&, nd4j::ops::helpers::HHsequence const&, nd4j::NDArray const&, nd4j::NDArray const&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::exchangeUV(nd4j::ops::helpers::HHsequence const&, nd4j::ops::helpers::HHsequence const&, nd4j::NDArray const&, nd4j::NDArray const&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::exchangeUV(nd4j::ops::helpers::HHsequence const&, nd4j::ops::helpers::HHsequence const&, nd4j::NDArray const&, nd4j::NDArray const&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::exchangeUV(nd4j::ops::helpers::HHsequence const&, nd4j::ops::helpers::HHsequence const&, nd4j::NDArray const&, nd4j::NDArray const&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::calcSingVals(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::calcSingVals(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::calcSingVecs(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::calcSingVecs(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::calcSingVals(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::calcSingVals(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::calcSingVecs(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::calcSingVecs(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::calcBlockSVD(int, int, nd4j::NDArray&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::calcBlockSVD(int, int, nd4j::NDArray&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::calcBlockSVD(int, int, nd4j::NDArray&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::calcBlockSVD(int, int, nd4j::NDArray&, nd4j::NDArray&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::perturb(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::perturb(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::perturb(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::perturb(nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::secularEq(bfloat16, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, bfloat16) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float16>::secularEq(float16, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, nd4j::NDArray const&, float16) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<float>::evalData(nd4j::NDArray const&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<double>::evalData(nd4j::NDArray const&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
+duplicate symbol nd4j::ops::helpers::SVD<bfloat16>::evalData(nd4j::NDArray const&) in:
+    CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
+    CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
 duplicate symbol nd4j::ops::helpers::SVD<float16>::evalData(nd4j::NDArray const&) in:
     CMakeFiles/nd4jobj.dir/__/include/helpers/cpu/svd.cpp.o
     CMakeFiles/nd4jobj.dir/__/include/ops/declarable/helpers/cpu/svd.cpp.o
